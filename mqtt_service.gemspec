@@ -3,7 +3,7 @@ Gem::Specification.new do |s|
   s.authors = [
     'nickthecook@tinytown.ca'
   ]
-  s.version = '0.5.7'
+  s.version = '0.5.8'
   s.date = '2018-11-18'
   s.summary = 'mqtt_service provides a framework for MQTT-based services'
   s.files = [

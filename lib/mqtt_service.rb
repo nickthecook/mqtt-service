@@ -101,7 +101,7 @@ class MqttService
     @logger.info "#{topic} #{msg}"
     if topic == ping_topic
       @logger.debug('Handling ping...')
-      publish(pong_topic, state: true)
+      publish(pong_topic, state: true, pong: 1)
     else
       mqtt_receive(topic, msg, msg_hash)
     end
